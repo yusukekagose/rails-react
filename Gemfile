@@ -34,7 +34,13 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'will_paginate', '3.1.5'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'rails-controller-testing'
+# Add webpacker for javascript library
+gem 'webpacker', '~> 3.5', '>= 3.5.5'
+gem 'rack-proxy', '0.6.5'
 
+# React gem for rails
+gem 'react-rails', '~> 2.4', '>= 2.4.7'
+gem 'babel-source', '~> 5.8.35'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
